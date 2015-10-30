@@ -47,6 +47,8 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 
                     t = b.getText().toString();
                     assertEquals("on", t);
+
+                    b.callOnClick();
                 }
             });
         } catch (Throwable throwable) {
