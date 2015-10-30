@@ -44,6 +44,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
                     assertEquals("off", t);
 
                     b.callOnClick();
+                    b.callOnClick();
 
                     t = b.getText().toString();
                     assertEquals("on", t);
